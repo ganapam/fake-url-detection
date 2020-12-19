@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake URL Prevention</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <script src="./static/main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><u>  Fake URL Prevention   </u></h1>
+    <h3>Check whether the URL is safe or not</h5>
+
+    <div class="row">
+    <form action='/predict' method="post" class="col s12" >
+    <input type="text" placeholder="Copy and paste your URL here" name="url" id ="url_id" autocomplete="off">
+    </form>
+    </div>
+</div>
+<div class="button_div">
+    <button type="submit" value="submit" onclick="return validation()">Check Url</button>
+</div>
+<br>
+<div class="result" style = "background: {{colour}}">
+    <h3 style = "background: {{colour}}">RESULT</h3>
+  <div class="url" style = "background: {{colour}}">
+   url:- {{url}}<br>
+  
+   </div>
+ <div class ="pred" style = "background: {{colour}}">
+    {{pred}}
+  <div class="redirection" style = "background: {{colour}}">
+       {{redirection}}
+       </div>  
+   </div>
+  <a href='{{url}}' target="_blank" style = "background: {{colour}}"> <button value="Redirect">Redirect</button></a>
+</div>
+ <br>
+
+</body>
+</html>
+

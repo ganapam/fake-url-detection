@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    
+    background-attachment: fixed;
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-color:palegoldenrod; */
+    
+
+}
+
+
+h1,h3{
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #051937;     
+    padding: 1%;
+}
+h3{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* input{
+    width: fit-content;
+} */
+
+
+.search_bar{
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    margin-top: 100px;
+    
+}
+
+input{
+    padding: 20px;
+    width: 88%;
+    text-align: center;
+    font-size: medium;
+    border: 3px solid #051937;
+    border-radius: 6px;
+    font-family: 'Balsamiq Sans', cursive;
+
+    /* margin:0 auto; */
+    margin-left: 4%;
+    margin-right: 4%; 
+    /* color: lightgreen;*/
+    /* text-decoration: none; */
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+input,button:focus{
+    outline: none;
+}
+
+.button_div{
+    /* position: relative; */
+    width: fit-content;
+    margin: 30px auto;
+}
+
+button{
+    padding: 5%;
+    border: 1px solid #051937;
+    border-radius: 4px;
+    font-size: medium;
+    /* color: whitesmoke; */
+    background:#E67E22;
+    color:#051937;
+    width: 100px;
+}
+
+button:hover{
+    /* border: 3px solid whitesmoke; */
+    background:#CD552F;
+    
+}
+
+.result{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+   border: 3px solid #051937;
+    border-radius: 6px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+
+}
+
+.result .url{
+   margin-top: 40px;
+   margin-left: 20px;
+   font-size: 15px;
+font-family: tahoma;
+
+
+}
+
+.result .pred{
+
+margin-left: 20px;  
+font-size: 20px;
+margin-top: 80px;
+font-family: tahoma;
+}
+
+
+.result button{
+padding: 0;
+padding: 2%;
+width: fit-content;
+font-size: medium;
+margin-top: 60px;
+margin-left: 160px;
+
+
+
+}
+
+.redirection{
+
+   margin-top: 50px;
+   font-size: 15px; 
+   font-family: tahoma;
+
+
+}
